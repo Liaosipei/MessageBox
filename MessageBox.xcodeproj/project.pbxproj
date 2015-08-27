@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		D75DC4151B8F20D700AD7CA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D75DC4141B8F20D700AD7CA5 /* main.m */; };
 		D75DC4181B8F20D700AD7CA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D75DC4171B8F20D700AD7CA5 /* AppDelegate.m */; };
-		D75DC41B1B8F20D700AD7CA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75DC41A1B8F20D700AD7CA5 /* ViewController.m */; };
-		D75DC41E1B8F20D700AD7CA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75DC41C1B8F20D700AD7CA5 /* Main.storyboard */; };
 		D75DC4201B8F20D700AD7CA5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D75DC41F1B8F20D700AD7CA5 /* Images.xcassets */; };
-		D75DC4231B8F20D700AD7CA5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D75DC4211B8F20D700AD7CA5 /* LaunchScreen.xib */; };
 		D75DC42F1B8F20D800AD7CA5 /* MessageBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D75DC42E1B8F20D800AD7CA5 /* MessageBoxTests.m */; };
+		D75DC4411B8F210700AD7CA5 /* MessageNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = D75DC4391B8F210700AD7CA5 /* MessageNavigation.m */; };
+		D75DC4421B8F210700AD7CA5 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75DC43B1B8F210700AD7CA5 /* MessageViewController.m */; };
+		D75DC4431B8F210700AD7CA5 /* MainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D75DC43D1B8F210700AD7CA5 /* MainCell.m */; };
+		D75DC4441B8F210700AD7CA5 /* MainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D75DC43E1B8F210700AD7CA5 /* MainCell.xib */; };
+		D75DC4451B8F210700AD7CA5 /* GetData.m in Sources */ = {isa = PBXBuildFile; fileRef = D75DC4401B8F210700AD7CA5 /* GetData.m */; };
+		D75DC4481B8F217800AD7CA5 /* CScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D75DC4471B8F217800AD7CA5 /* CScrollView.m */; };
+		D75DC44B1B8F225500AD7CA5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D75DC44A1B8F225500AD7CA5 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +36,22 @@
 		D75DC4141B8F20D700AD7CA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D75DC4161B8F20D700AD7CA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D75DC4171B8F20D700AD7CA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D75DC4191B8F20D700AD7CA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D75DC41A1B8F20D700AD7CA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D75DC41D1B8F20D700AD7CA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D75DC41F1B8F20D700AD7CA5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D75DC4221B8F20D700AD7CA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D75DC4281B8F20D800AD7CA5 /* MessageBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessageBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D75DC42D1B8F20D800AD7CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D75DC42E1B8F20D800AD7CA5 /* MessageBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageBoxTests.m; sourceTree = "<group>"; };
+		D75DC4381B8F210700AD7CA5 /* MessageNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageNavigation.h; sourceTree = "<group>"; };
+		D75DC4391B8F210700AD7CA5 /* MessageNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageNavigation.m; sourceTree = "<group>"; };
+		D75DC43A1B8F210700AD7CA5 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		D75DC43B1B8F210700AD7CA5 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		D75DC43C1B8F210700AD7CA5 /* MainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCell.h; sourceTree = "<group>"; };
+		D75DC43D1B8F210700AD7CA5 /* MainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCell.m; sourceTree = "<group>"; };
+		D75DC43E1B8F210700AD7CA5 /* MainCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainCell.xib; sourceTree = "<group>"; };
+		D75DC43F1B8F210700AD7CA5 /* GetData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetData.h; sourceTree = "<group>"; };
+		D75DC4401B8F210700AD7CA5 /* GetData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetData.m; sourceTree = "<group>"; };
+		D75DC4461B8F217800AD7CA5 /* CScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CScrollView.h; sourceTree = "<group>"; };
+		D75DC4471B8F217800AD7CA5 /* CScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CScrollView.m; sourceTree = "<group>"; };
+		D75DC44A1B8F225500AD7CA5 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +95,18 @@
 			children = (
 				D75DC4161B8F20D700AD7CA5 /* AppDelegate.h */,
 				D75DC4171B8F20D700AD7CA5 /* AppDelegate.m */,
-				D75DC4191B8F20D700AD7CA5 /* ViewController.h */,
-				D75DC41A1B8F20D700AD7CA5 /* ViewController.m */,
-				D75DC41C1B8F20D700AD7CA5 /* Main.storyboard */,
+				D75DC4381B8F210700AD7CA5 /* MessageNavigation.h */,
+				D75DC4391B8F210700AD7CA5 /* MessageNavigation.m */,
+				D75DC43A1B8F210700AD7CA5 /* MessageViewController.h */,
+				D75DC43B1B8F210700AD7CA5 /* MessageViewController.m */,
+				D75DC43C1B8F210700AD7CA5 /* MainCell.h */,
+				D75DC43D1B8F210700AD7CA5 /* MainCell.m */,
+				D75DC43E1B8F210700AD7CA5 /* MainCell.xib */,
+				D75DC43F1B8F210700AD7CA5 /* GetData.h */,
+				D75DC4401B8F210700AD7CA5 /* GetData.m */,
+				D75DC4491B8F217E00AD7CA5 /* CScrollView */,
 				D75DC41F1B8F20D700AD7CA5 /* Images.xcassets */,
-				D75DC4211B8F20D700AD7CA5 /* LaunchScreen.xib */,
+				D75DC44A1B8F225500AD7CA5 /* LaunchScreen.xib */,
 				D75DC4121B8F20D700AD7CA5 /* Supporting Files */,
 			);
 			path = MessageBox;
@@ -117,6 +136,15 @@
 				D75DC42D1B8F20D800AD7CA5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D75DC4491B8F217E00AD7CA5 /* CScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				D75DC4461B8F217800AD7CA5 /* CScrollView.h */,
+				D75DC4471B8F217800AD7CA5 /* CScrollView.m */,
+			);
+			name = CScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +227,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D75DC41E1B8F20D700AD7CA5 /* Main.storyboard in Resources */,
-				D75DC4231B8F20D700AD7CA5 /* LaunchScreen.xib in Resources */,
+				D75DC4441B8F210700AD7CA5 /* MainCell.xib in Resources */,
+				D75DC44B1B8F225500AD7CA5 /* LaunchScreen.xib in Resources */,
 				D75DC4201B8F20D700AD7CA5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +247,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D75DC41B1B8F20D700AD7CA5 /* ViewController.m in Sources */,
+				D75DC4431B8F210700AD7CA5 /* MainCell.m in Sources */,
 				D75DC4181B8F20D700AD7CA5 /* AppDelegate.m in Sources */,
+				D75DC4481B8F217800AD7CA5 /* CScrollView.m in Sources */,
+				D75DC4451B8F210700AD7CA5 /* GetData.m in Sources */,
+				D75DC4411B8F210700AD7CA5 /* MessageNavigation.m in Sources */,
+				D75DC4421B8F210700AD7CA5 /* MessageViewController.m in Sources */,
 				D75DC4151B8F20D700AD7CA5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,25 +274,6 @@
 			targetProxy = D75DC4291B8F20D800AD7CA5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D75DC41C1B8F20D700AD7CA5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D75DC41D1B8F20D700AD7CA5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D75DC4211B8F20D700AD7CA5 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D75DC4221B8F20D700AD7CA5 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D75DC4301B8F20D800AD7CA5 /* Debug */ = {
@@ -348,6 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MessageBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +372,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MessageBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
